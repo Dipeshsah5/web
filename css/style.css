@@ -1,0 +1,114 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+.topnav{
+    margin: 10px 0;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.topnav ul{
+    text-align: center;
+    
+}
+h1{
+    float: left;
+    margin: 2px;
+}
+h1 img{
+    width: 84px;
+    height: 60px;
+    position: absolute;
+    top: 3px;
+    left: 69px;
+
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.topnav ul li{
+    display: inline;
+    list-style: none;   
+    padding: 20px;
+}
+a{
+    font-size: 25px;
+    color: rgb(179 191 143);
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 5px;    
+}
+#search{
+    float: right;
+    color: white;
+    position: absolute;
+    top: 19px;
+    right: 30px;
+    border-radius: 10px;
+    height: 25px;
+    width: 220px;
+    padding: 0 8px;
+    background-color: #6e8649 ;
+}
+#search::placeholder{
+    color: white;
+}
+h2 img{
+    width: 255px;
+    height: 380px;
+    margin: 20px 20px   ;
+    border-radius: 40px;
+    float: left;
+}
+.header1{
+    text-align: center;
+    font-size: 50px;
+}
+#main1{ 
+    margin: 0 10px;
+    overflow: auto;
+}
+#main2 h2 img{
+    float: right;
+}
+#main2 h2{
+    font-size: 50px ;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+p{
+    text-align: justify;
+}
+#main2 p{
+    padding: 5px 10px;
+}
+#main2{
+    overflow: auto;
+}
+footer{
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 2px solid grey;
+}
+h2{
+    text-shadow: 2px 2px 3px goldenrod;
+    font-family: cursive;
+}
+
